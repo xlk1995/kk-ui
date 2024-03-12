@@ -8,9 +8,10 @@ const count = ref(0)
 
 <template>
   <h1 class="text-3xl font-bold underline">{{ msg }}</h1>
+  <k-button type="primary">9999</k-button>
 
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+    <button @click="count++">count is {{ count }}</button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
